@@ -11,6 +11,8 @@
 		D10EC90D25C362D00083A7EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EC90C25C362D00083A7EC /* ContentView.swift */; };
 		D10EC90F25C362D10083A7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10EC90E25C362D10083A7EC /* Assets.xcassets */; };
 		D10EC91225C362D10083A7EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10EC91125C362D10083A7EC /* Preview Assets.xcassets */; };
+		D10EC91B25C364080083A7EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EC91A25C364080083A7EC /* Home.swift */; };
+		D10EC91F25C365F90083A7EC /* Elementi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EC91E25C365F90083A7EC /* Elementi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D10EC90E25C362D10083A7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D10EC91125C362D10083A7EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D10EC91325C362D10083A7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10EC91A25C364080083A7EC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D10EC91E25C365F90083A7EC /* Elementi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elementi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				D10EC90A25C362D00083A7EC /* LocalizationApp.swift */,
 				D10EC90C25C362D00083A7EC /* ContentView.swift */,
+				D10EC91A25C364080083A7EC /* Home.swift */,
 				D10EC90E25C362D10083A7EC /* Assets.xcassets */,
 				D10EC91325C362D10083A7EC /* Info.plist */,
 				D10EC91025C362D10083A7EC /* Preview Content */,
+				D10EC91E25C365F90083A7EC /* Elementi.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10EC91F25C365F90083A7EC /* Elementi.swift in Sources */,
 				D10EC90D25C362D00083A7EC /* ContentView.swift in Sources */,
+				D10EC91B25C364080083A7EC /* Home.swift in Sources */,
 				D10EC90B25C362D00083A7EC /* LocalizationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
